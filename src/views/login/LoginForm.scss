@@ -1,0 +1,36 @@
+.login-form {
+	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+	padding: 1.5rem;
+
+	width: 400px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.form-group {
+		display: flex;
+		flex-direction: column;
+
+		label {
+			font-weight: 500;
+		}
+
+		input {
+			border: 1px solid black;
+			padding: 0.5rem;
+		}
+	}
+
+	.form-actions {
+		button {
+			width: 100%;
+			padding: 0.5rem;
+
+			font-weight: 500;
+
+			cursor: pointer;
+		}
+	}
+}

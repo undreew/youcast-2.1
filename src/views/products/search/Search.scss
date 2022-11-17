@@ -1,0 +1,18 @@
+.products-search {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+
+	.products-search__form-control {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0.25rem;
+
+		.products-search__input {
+			border: 1px solid black;
+			padding: 0.5rem;
+		}
+	}
+}

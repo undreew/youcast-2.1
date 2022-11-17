@@ -1,0 +1,21 @@
+.products-header {
+	border-bottom: 1px solid rgb(203, 203, 203);
+
+	width: 100%;
+
+	display: flex;
+	gap: 1.5rem;
+
+	.products-header__item {
+		text-decoration: none;
+		color: black;
+
+		padding: 1rem 0.5rem;
+
+		cursor: pointer;
+
+		&:active {
+			border-bottom: 3px solid lightblue;
+		}
+	}
+}
