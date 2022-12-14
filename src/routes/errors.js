@@ -1,7 +1,7 @@
 import Errors from '../views/errors/index';
 
 const errors = {
-	path: '*',
+	path: '/error/:code',
 	element: <Errors />,
 };
 
