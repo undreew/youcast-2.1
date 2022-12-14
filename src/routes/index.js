@@ -6,6 +6,7 @@ import errors from './errors';
 // ROUTE LAYOUT
 import PrivateRoute from '../components/RouteLayout/PrivateRoute';
 import PublicRoute from '../components/RouteLayout/PublicRoute';
+import Loadable from '../components/Loadable';
 
 const routes = [
 	{
@@ -19,6 +20,10 @@ const routes = [
 	{
 		...errors,
 	},
+	// {
+	// 	path: '/not-found',
+	// 	element: Loadable(),
+	// },
 ];
 
 export default routes;
