@@ -31,8 +31,7 @@ const ACTION = {};
 function ErrorHeader() {
 	const {code} = useParams();
 
-	const errorCode = ERROR_STATUS[code];
-	console.log(errorCode);
+	const errorCode = ERROR_STATUS[code || '404'];
 
 	if (isEmpty(errorCode)) return <Navigate to='/not-found' replace />;
 
