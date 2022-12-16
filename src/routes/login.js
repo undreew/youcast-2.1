@@ -1,4 +1,4 @@
-import Login from '../views/login/index';
+import Login from 'views/login/index';
 
 const login = {
 	path: '/login',

@@ -1,7 +1,8 @@
-import Products from '../views/products/index';
-import ProductsList from '../views/products/list/index';
-import ProductsAdd from '../views/products/add/index';
-import ProductsSearch from '../views/products/search/index';
+import Products from 'views/products/index';
+import ProductsList from 'views/products/list/index';
+import ProductsAdd from 'views/products/add/index';
+// import ProductsSearch from '../views/products/search/index';
+import ProductsSearch from 'views/products/search/index';
 
 const products = {
 	path: '/products',
