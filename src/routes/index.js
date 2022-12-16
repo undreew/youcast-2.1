@@ -1,3 +1,4 @@
+// PUBLIC ROUTES
 import landing from './landing';
 import login from './login';
 

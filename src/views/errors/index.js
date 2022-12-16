@@ -4,7 +4,7 @@ import ErrorHeader from './ErrorHeader';
 
 function Index() {
 	return (
-		<PublicLayout header={false} footer={false}>
+		<PublicLayout header={true} footer={false}>
 			<ErrorHeader />
 		</PublicLayout>
 	);
