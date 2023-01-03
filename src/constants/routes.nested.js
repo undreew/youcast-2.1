@@ -2,22 +2,23 @@ import {buildRouteNodes} from '../utils/build-routes';
 
 // NESTED ROUTES
 
-const POSTS = {
-	INDEX: '/posts',
+const PRODUCTS = {
+	INDEX: '/products',
 
 	LIST: '/',
-	CREATE: '/create',
-	EDIT: '/edit/:postId',
+	ADD: '/add',
+	EDIT: '/edit/:productId',
+	SEARCH: '/search',
 
 	VIEWS: {
-		INDEX: '/:postId',
+		INDEX: '/:productId',
 	},
 };
 
 const DASHBOARD = {
 	INDEX: '/dashboard',
 
-	POSTS: buildRouteNodes(POSTS),
+	PRODUCTS: buildRouteNodes(PRODUCTS),
 };
 
 export default DASHBOARD;

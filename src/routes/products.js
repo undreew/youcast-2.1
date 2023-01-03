@@ -4,8 +4,11 @@ import ProductsAdd from 'views/products/add/index';
 // import ProductsSearch from '../views/products/search/index';
 import ProductsSearch from 'views/products/search/index';
 
+import {ROUTE_PATH} from 'constants/routes';
+
 const products = {
-	path: '/products',
+	// path: '/products',
+	path: ROUTE_PATH.DASHBOARD.PRODUCTS.INDEX,
 	element: <Products />,
 	children: [
 		// SEARCH
@@ -15,12 +18,14 @@ const products = {
 		},
 		// LIST
 		{
-			path: 'search',
+			// path: 'search',
+			path: ROUTE_PATH.DASHBOARD.PRODUCTS.SEARCH,
 			element: <ProductsSearch />,
 		},
 		// ADD
 		{
-			path: 'add',
+			// path: 'add',
+			path: ROUTE_PATH.DASHBOARD.PRODUCTS.ADD,
 			element: <ProductsAdd />,
 		},
 	],

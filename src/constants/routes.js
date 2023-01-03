@@ -25,7 +25,8 @@ const SIGN_UP = {
 
 export const ROUTE_PATH = {
 	HOME: '/',
-	ERROR: '/error/:code(404|403|500|session)',
+	// ERROR: '/error/:code(404|403|500|session)',
+	ERROR: '/error/:code',
 	LOG_OUT: '/logout',
 	LOG_IN,
 	SIGN_UP,
