@@ -4,7 +4,7 @@ import {PublicLayout} from '../../components/Layouts';
 
 function Index() {
 	return (
-		<PublicLayout>
+		<PublicLayout footer={false}>
 			<LandingHeader />
 		</PublicLayout>
 	);

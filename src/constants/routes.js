@@ -5,6 +5,7 @@ import DASHBOARD from './routes.nested';
 export const ROUTE_ACCESS_RULE = {
 	public: 'public',
 	private: 'private',
+  guest: 'guest', // Opposite of private. Non-logged in user only
 };
 
 const LOG_IN = {
