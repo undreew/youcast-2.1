@@ -1,3 +1,4 @@
+import {InternalLink} from 'components/Links';
 import React from 'react';
 import {Link} from 'react-router-dom';
 
@@ -33,7 +34,13 @@ function List() {
 							<h4>{product_name}</h4>
 							<p>{description}</p>
 						</div>
-						<Link to={`/products/${id}`}>View</Link>
+						{/* <Link to={`/products/${id}`}>View</Link> */}
+						<InternalLink
+							path='DASHBOARD.PRODUCTS.VIEWS.INDEX'
+							params={{productId: id}}
+						>
+							View
+						</InternalLink>
 					</div>
 				);
 			})}
