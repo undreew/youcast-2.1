@@ -1,3 +1,4 @@
+import {InternalLink} from 'components/Links';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {PageHeaderNavItem} from './PageHeaderNavPrivate';
@@ -20,11 +21,13 @@ function PageHeaderNavPublic() {
 			</PageHeaderNavItem>
 
 			<PageHeaderNavItem>
-				<Link to='/login'>Log In</Link>
+				{/* <Link to='/login'>Log In</Link> */}
+				<InternalLink path='LOG_IN.INDEX'>Login</InternalLink>
 			</PageHeaderNavItem>
 
 			<PageHeaderNavItem>
-				<Link to='/signup'>Sign Up</Link>
+				{/* <Link to='/signup'>Sign Up</Link> */}
+				<InternalLink path='SIGN_UP.INDEX'>Sign up</InternalLink>
 			</PageHeaderNavItem>
 
 			{/* MOBILE BUTTON */}

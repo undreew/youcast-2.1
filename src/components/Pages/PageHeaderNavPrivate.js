@@ -1,3 +1,4 @@
+import {InternalLink} from 'components/Links';
 import React from 'react';
 import {Link} from 'react-router-dom';
 
@@ -42,7 +43,7 @@ function PageHeaderNavPrivate() {
 				</PageHeaderNavItem>
 
 				<PageHeaderNavItem className=''>
-					<Link to='/products'>Products</Link>
+					<InternalLink path='DASHBOARD.PRODUCTS.INDEX'>Products</InternalLink>
 				</PageHeaderNavItem>
 			</div>
 
